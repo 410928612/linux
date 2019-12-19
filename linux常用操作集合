@@ -1,0 +1,5 @@
+php-fpm执行文件路径：/usr/local/php/sbin/php-fpm
+nginx执行文件路径：/usr/sbin/nginx
+
+定时任务（每五分钟执行一次）
+*/5 * * * * /usr/bin/wget -q -O temp.txt https://qgmysg.com/order/checkBalance
