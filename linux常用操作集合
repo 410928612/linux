@@ -3,3 +3,28 @@ nginx执行文件路径：/usr/sbin/nginx
 
 定时任务（每五分钟执行一次）
 */5 * * * * /usr/bin/wget -q -O temp.txt https://qgmysg.com/order/checkBalance
+
+查看某进程数量
+ps -fe |grep "php-fpm"|grep "pool"|wc -l
+
+解压缩
+打包tar zcvf filename.tar.gz dirname
+解压tar zxvf filename.tar.gz
+
+nginx+php崩溃使用命令重启
+killall -9 php-fpm  杀死进程
+service php-fpm start
+
+PHP开发工程师 
+岗位职责：
+1、负责公司核心业务系统的代码开发；
+2、参与公司业务系统架构设计和数据库设计及优化；
+岗位要求：
+1、有1-3年以上PHP开发经验，熟练使用TP5框架；
+2、熟悉mysql、redis及常用数据库优化方案；
+3、熟悉linux常用操作命令；
+4、在编码的的安全性方面有良好的习惯，并可以对程序进行性能优化；
+5、有高并发、高访问量网站开发经验者优先；
+
+##docker使用方法
+
