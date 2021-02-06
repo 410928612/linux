@@ -21,8 +21,6 @@ service php-fpm start
  运行swoole
 php /usr/local/nginx/www/xiechong/shop_v4/bootstrap.php
 
-
-
 PHP开发工程师 
 岗位职责：
 1、负责公司核心业务系统的代码开发；
@@ -35,4 +33,5 @@ PHP开发工程师
 5、有高并发、高访问量网站开发经验者优先；
 
 ##docker使用方法
-
+windows下进入docker命令行
+docker exec -it f36a0fca246b /bin/sh
