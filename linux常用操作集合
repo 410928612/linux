@@ -35,3 +35,6 @@ PHP开发工程师
 ##docker使用方法
 windows下进入docker命令行
 docker exec -it f36a0fca246b /bin/sh
+
+#apache压测
+ab -c 10 -n 100 "http://www.bbk-swoole.com/index/test"
