@@ -1,1 +1,5 @@
 docker相关知识以及操作命令
+
+##docker使用方法
+windows下进入docker命令行
+docker exec -it f36a0fca246b /bin/sh
