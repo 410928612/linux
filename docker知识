@@ -3,3 +3,7 @@ docker相关知识以及操作命令
 ##docker使用方法
 windows下进入docker命令行
 docker exec -it f36a0fca246b /bin/sh
+
+docker run -it -p80:80 -p3306:3306 -p443:443 -p6379:6379 -p8080:8080 -p888:888 -p8888:8888 -p3000:3000  --name test2  ubuntu:latest  -v D:\phpstudy_pro\WWW:/home/www
+
+ docker run -it -v  D:\phpstudy_pro\WWW:/home/www -p80:80 -p3306:3306 -p443:443 -p6379:6379 -p8080:8080 -p888:888 -p8888:8888 -p3000:3000  --name educoder  ubuntu:latest
